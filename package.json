@@ -1,0 +1,30 @@
+{
+  "name": "@mern-monorepo/mern-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "ui-react-monorepo",
+    "api-node-monorepo",
+    "front-react-monorepo",
+    "eslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoassiscarvalho/mern-monorepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoassiscarvalho/mern-monorepo/issues"
+  },
+  "homepage": "https://github.com/brunoassiscarvalho/mern-monorepo#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
