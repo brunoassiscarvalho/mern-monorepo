@@ -1,0 +1,2 @@
+# mudar versão de todos os projetos
+npm version 0.0.1 --workspaces && git add **/package.json; npm version 0.0.1 --include-workspace-root --force
