@@ -1,6 +1,6 @@
 {
   "name": "@mern-monorepo/api-node-monorepo",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
   "private": true,
