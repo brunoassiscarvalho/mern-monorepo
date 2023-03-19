@@ -1,5 +1,5 @@
 {
-  "name": "@mern-monorepo/eslint-config",
+  "name": "@mern-monorepo/eslint-config-template",
   "version": "0.0.1",
   "description": "",
   "main": ".eslintrc",
