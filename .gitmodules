@@ -4,3 +4,6 @@
 [submodule "packages/node-api-template"]
 	path = packages/node-api-template
 	url = https://github.com/brunoassiscarvalho/node-api-template.git
+[submodule "packages/ui-react-template"]
+	path = packages/ui-react-template
+	url = https://github.com/brunoassiscarvalho/ui-react-template.git
