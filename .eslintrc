@@ -1,0 +1,3 @@
+{
+  "extends": "@mern-monorepo/eslint-config"
+}
