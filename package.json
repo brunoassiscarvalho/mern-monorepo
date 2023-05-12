@@ -23,6 +23,6 @@
   "homepage": "https://github.com/brunoassiscarvalho/mern-monorepo#readme",
   "devDependencies": {
     "typescript": "^4.9.5",
-    "@mern-monorepo/eslint-config": "*"
+    "@mern-monorepo/eslint-config-template": "*"
   }
 }
