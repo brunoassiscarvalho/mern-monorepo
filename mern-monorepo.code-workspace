@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "packages/node-api-template"
+    },
+    {
+      "path": "packages/react-app-template"
+    },
+    {
+      "path": "packages/ui-react-template"
+    }
+  ]
+}
