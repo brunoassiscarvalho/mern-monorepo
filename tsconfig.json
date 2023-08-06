@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "target": "es6",
-    "moduleResolution": "node",
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "rootDir": "./src",
+    "declaration": true,
     "sourceMap": true,
+    "esModuleInterop": true,
+    "target": "es2016",
+    "moduleResolution": "node",
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
-  }
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "jsx": "react"
+  },
+  "include": ["./src"],
+  "exclude": ["**/*.test.ts"]
 }
