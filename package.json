@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "git submodule update --init --recursive"
+    "update": "git submodule update --init --recursive",
+    "prettier": "npx prettier --write ."
   },
   "workspaces": [
     "packages/*"
