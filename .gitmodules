@@ -10,3 +10,6 @@
 [submodule "packages/eslint-config-template"]
 	path = packages/eslint-config-template
 	url = https://github.com/brunoassiscarvalho/eslint-config-template.git
+[submodule "packages/monorepo-interface"]
+	path = packages/monorepo-interface
+	url = https://github.com/brunoassiscarvalho/monorepo-interface
