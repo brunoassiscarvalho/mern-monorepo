@@ -1,20 +1,19 @@
 {
   "folders": [
-    {
-      "name": "node-api-template",
-      "path": "packages/node-api-template"
-    },
-    {
-      "name": "react-app-template",
-      "path": "packages/react-app-template"
-    },
-    {
-      "name": "ui-react-template",
-      "path": "packages/ui-react-template"
-    },
-    {
-      "name": "mern-monorepo",
-      "path": "."
-    }
-  ]
+	{
+		"path": "."
+	},
+	{
+		"path": "packages/react-app-template"
+	},
+	{
+		"path": "packages/ui-react-template"
+	},
+	{
+		"path": "packages/node-api-template"
+	},
+	{
+		"path": "packages/monorepo-interface"
+	}
+]
 }
