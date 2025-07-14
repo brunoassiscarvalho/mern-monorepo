@@ -1,0 +1,56 @@
+{
+  "_id": { "$oid": "66dd3c5625a7eddddf73caca" },
+  "title": "asdfasdf",
+  "description": "asdfsdaf",
+  "edges": [
+    { "source": "1", "sourceHandle": null, "target": "2", "targetHandle": null, "id": "reactflow__edge-1-2" },
+    {
+      "source": "3",
+      "sourceHandle": null,
+      "target": "1",
+      "targetHandle": null,
+      "id": "reactflow__edge-3-1",
+      "selected": true,
+      "data": {}
+    }
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "width": 150,
+      "height": 80,
+      "position": { "x": 203, "y": -2, "_id": { "$oid": "66e49f63101576f609d559d5" } },
+      "type": "screen",
+      "data": {
+        "md": [
+          { "w": 3, "h": 1, "x": 0, "y": 0, "i": "1", "moved": false, "static": false },
+          { "w": 3, "h": 1, "x": 0, "y": 1, "i": "n0", "moved": false, "static": false }
+        ],
+        "lg": [],
+        "sm": [
+          { "w": 1, "h": 1, "x": 0, "y": 0, "i": "1", "moved": false, "static": false },
+          { "w": 1, "h": 1, "x": 0, "y": 1, "i": "n0", "moved": false, "static": false }
+        ],
+        "xs": [
+          { "w": 1, "h": 1, "x": 0, "y": 0, "i": "1", "moved": false, "static": false },
+          { "w": 1, "h": 1, "x": 0, "y": 1, "i": "n0", "moved": false, "static": false }
+        ],
+        "xxs": [
+          { "w": 1, "h": 1, "x": 0, "y": 0, "i": "1", "moved": false, "static": false },
+          { "w": 1, "h": 1, "x": 0, "y": 1, "i": "n0", "moved": false, "static": false }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "width": 150,
+      "height": 32,
+      "position": { "x": -103, "y": 0.5, "_id": { "$oid": "66e49f63101576f609d559d6" } },
+      "type": "start",
+      "data": { "label": "start node" }
+    }
+  ],
+  "viewport": { "x": 588.9391919288553, "y": 386.936244265268, "zoom": 2 },
+  "createdAt": { "$date": { "$numberLong": "1725774922340" } },
+  "__v": 0
+}

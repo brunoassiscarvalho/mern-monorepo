@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  node-app:
+    # Build the Node.js app using the Dockerfile in the current directory
+    build: .
+    command: npm start
+    # Mount the current directory into the container for live code changes during development
+    volumes:
+      - .:/usr/app
+      # Exclude node_modules to prevent container-related issues
+      - /usr/app/node_modules
+    # Expose the Node.js app port
+    ports:
+      - '3010:3010'
+
+  prometheus:
+    # Use the official Prometheus image
+    image: prom/prometheus
+    # Mount the Prometheus configuration file from the host
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    # Expose the Prometheus web UI and data port
+    ports:
+      - '9090:9090'
+
+  grafana:
+    # Use the official Grafana image
+    image: grafana/grafana
+    # Expose the Grafana web UI port
+    ports:
+      - '3000:3000'
+    # Provide environment variables for Grafana configuration (adjust as needed)
+    environment:
+      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource

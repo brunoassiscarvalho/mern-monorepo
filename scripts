@@ -1,5 +1,0 @@
-# mudar versão de todos os projetos
-npm version 0.0.1 --workspaces && git add **/package.json; npm version 0.0.1 --include-workspace-root --force
-
-# fazer o pull de todos os projetos
-git submodule update --recursive --remote

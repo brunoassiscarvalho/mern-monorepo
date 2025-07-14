@@ -1,0 +1,79 @@
+{
+  "_id": "fkioewujroilfkjsa4ds56f4sa",
+  "navigations": [
+    {
+      "reference": "NAVXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "referenceTo": "eesrersefasdfaewfef",
+      "params": {}
+    }
+  ],
+  "startPoints": [
+    {
+      "reference": "72398ewiruoiewur23rioewuj",
+      "title": "App start",
+      "description": "App start",
+      "action": {},
+      "navigation": "NAVXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "reference": "72398ewiruoiewur23rioewuj",
+      "title": "Page link",
+      "description": "Page link",
+      "navigation": "NAVXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  ],
+  "requests": [
+    {
+      "reference": "XXXXXXXXXXXXXXXXXXXXXXXXX",
+      "title": "my-first-screen",
+      "description": "my request",
+      "method": "Request",
+      "url": "Request",
+      "params": {}
+    }
+  ],
+  "actions": [
+    {
+      "reference": "navigation",
+      "props": {
+        "id": "NAVXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    }
+  ],
+  "screens": [
+    {
+      "reference": "my-first-screen",
+      "title": "App start",
+      "description": "App start",
+      "fields": [
+        {
+          "_id": "XXXXXXXXXXXXXXXXXXXXXXXXX",
+          "title": "Name",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "reference": "my-second-screen",
+      "title": "Page link",
+      "description": "Page link",
+      "fields": [
+        {
+          "_id": "XXXXXXXXXXXXXXXXXXXXXXXXX",
+          "title": "Link",
+          "type": "link",
+          "data": {}
+        },
+        {
+          "_id": "XXXXXXXXXXXXXXXXXXXXXXXXX",
+          "title": "Link",
+          "type": "button",
+          "data": {
+            "action": "fdgergrertgretret"
+          }
+        }
+      ]
+    }
+  ]
+}
