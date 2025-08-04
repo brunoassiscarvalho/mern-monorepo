@@ -1,3 +1,5 @@
+"use client";
+
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
@@ -16,6 +18,9 @@ const ThemeImage = (props: Props) => {
       <Image {...rest} src={srcDark} className="imgDark" />
     </>
   );
+};
+const handleClick = () => {
+  alert("Hello from your web app!");
 };
 
 export default function Home() {
@@ -66,6 +71,9 @@ export default function Home() {
         <Button appName="docs" className={styles.secondary}>
           Open alert
         </Button>
+        <button className={styles.secondary} onClick={handleClick}>
+          test
+        </button>
       </main>
       <footer className={styles.footer}>
         <a
