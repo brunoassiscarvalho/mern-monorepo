@@ -74,6 +74,8 @@ export default function Home() {
         <button className={styles.secondary} onClick={handleClick}>
           test
         </button>
+        <a href="/auth/login">Login</a>
+        <a href="/auth/logout">Logout</a>
       </main>
       <footer className={styles.footer}>
         <a

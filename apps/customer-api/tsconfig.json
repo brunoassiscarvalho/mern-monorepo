@@ -1,9 +1,0 @@
-{
-  "extends": "@repo/typescript-config/nextjs.json",
-
-  "compilerOptions": {
-    "outDir": "dist"
-  },
-  "include": ["./src"],
-  "exclude": ["**/*.test.ts"]
-}
