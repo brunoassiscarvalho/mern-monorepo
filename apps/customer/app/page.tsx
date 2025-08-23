@@ -65,7 +65,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.secondary}
           >
-            Customer-WEB-AAAA
+            {process.env.MONGODB_URI}
           </a>
         </div>
         <Button appName="web" className={styles.secondary}>
