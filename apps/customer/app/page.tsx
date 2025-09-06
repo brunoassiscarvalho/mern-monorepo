@@ -74,8 +74,17 @@ export default function Home() {
         <button className={styles.secondary} onClick={handleClick}>
           test
         </button>
-        <a href="/auth/login">Login</a>
-        <a href="/auth/logout">Logout</a>
+        <div className={styles.ctas}>
+          <a href="/auth/login" className={styles.secondary}>
+            Login
+          </a>
+          <a href="/auth/logout" className={styles.secondary}>
+            Logout
+          </a>
+          <a href="/customers" className={styles.primary}>
+            Manage Customers
+          </a>
+        </div>
       </main>
       <footer className={styles.footer}>
         <a
