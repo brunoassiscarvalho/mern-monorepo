@@ -17,7 +17,8 @@
     "target": "ES2022",
     "sourceMap": true,
     "paths": {
-      "@lib/*": ["../lib/*"]
+      "@lib/*": ["../lib/*"],
+      "@mern-monorepo/*": ["../../packages/*/src"]
     }
   }
 }

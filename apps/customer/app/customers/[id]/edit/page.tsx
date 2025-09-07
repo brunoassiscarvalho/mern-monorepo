@@ -4,21 +4,14 @@ import { useState, useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
 import { Button } from "@repo/ui/button";
 import { Card } from "@repo/ui/card";
-import { ICustomer } from "@mern-monorepo/interfaces";
-
-interface CustomerFormData {
-  name: string;
-  email: string;
-  phone: string;
-  address: string;
-}
+import { ICustomer, IUpdateCustomer } from "@mern-monorepo/interfaces";
 
 export default function EditCustomerPage() {
   const router = useRouter();
   const params = useParams();
   const customerId = params.id as string;
 
-  const [formData, setFormData] = useState<CustomerFormData>({
+  const [formData, setFormData] = useState<IUpdateCustomer>({
     name: "",
     email: "",
     phone: "",
@@ -120,7 +113,7 @@ export default function EditCustomerPage() {
           <h1 className="text-3xl font-bold">Edit Customer</h1>
         </div>
 
-        <Card className="p-6">
+        <Card className="p-6" title="Edit Customer" href="#">
           <form onSubmit={handleSubmit} className="space-y-4">
             {error && (
               <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">

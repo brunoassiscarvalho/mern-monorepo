@@ -4,17 +4,11 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@repo/ui/button";
 import { Card } from "@repo/ui/card";
-
-interface CustomerFormData {
-  name: string;
-  email: string;
-  phone: string;
-  address: string;
-}
+import { ICreateCustomer } from "@mern-monorepo/interfaces";
 
 export default function NewCustomerPage() {
   const router = useRouter();
-  const [formData, setFormData] = useState<CustomerFormData>({
+  const [formData, setFormData] = useState<ICreateCustomer>({
     name: "",
     email: "",
     phone: "",
