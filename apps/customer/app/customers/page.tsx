@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { ICustomer } from "@mern-monorepo/interfaces";
-import { Button } from "@repo/ui/button";
-import { Card } from "@repo/ui/card";
+import { Button } from "@mern-monorepo/ui/button";
+import { Card } from "@mern-monorepo/ui/card";
 import Link from "next/link";
 
 export default function CustomersPage() {

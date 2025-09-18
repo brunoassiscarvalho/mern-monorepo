@@ -1,7 +1,7 @@
 "use client";
 
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
+import { Button } from "@mern-monorepo/ui/button";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;

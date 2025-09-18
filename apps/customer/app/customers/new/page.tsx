@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Button } from "@repo/ui/button";
-import { Card } from "@repo/ui/card";
+import { Button } from "@mern-monorepo/ui/button";
+import { Card } from "@mern-monorepo/ui/card";
 import { ICreateCustomer } from "@mern-monorepo/interfaces";
 
 export default function NewCustomerPage() {

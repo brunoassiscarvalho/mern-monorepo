@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/nextjs.json",
+  "extends": "@mern-monorepo/typescript-config/nextjs.json",
   "compilerOptions": {
     "jsx": "preserve",
     "plugins": [
@@ -15,7 +15,5 @@
     "next.config.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
